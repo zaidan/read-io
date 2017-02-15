@@ -1,0 +1,9 @@
+Foo {
+  id = 1,
+  name = "b",
+  value = 3.1234567800009,
+  nested = [
+  ("key 1", Bar { some = 'b'}),
+  ("key 2", Bar { some = 'B'})
+  ]
+}
