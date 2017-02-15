@@ -54,5 +54,7 @@ test-suite spec
     , read-io
     , hspec
   other-modules:
+      System.IO.Foo
       System.IO.ReadSpec
+      System.IO.ShowSpec
   default-language: Haskell2010
